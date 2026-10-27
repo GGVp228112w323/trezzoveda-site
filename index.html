@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trezzoveda — Ayurveda, yoga, tours to India and Russia</title>
+<meta name="description" content="Trezzoveda: Ayurvedic tours to Kerala, travel tours across India and Russia, yoga and meditation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf6ee;--card:#fff;--ink:#23302a;--muted:#5d6b63;--green:#2f5d46;--green-d:#1f4332;--saffron:#d98a1c;--line:#e6dfcf;--sand:#f1e9d8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;line-height:1.15;margin:0 0 .5em;font-weight:600}
+h1{font-size:clamp(2.4rem,6vw,4.2rem)}h2{font-size:clamp(1.8rem,4vw,2.6rem)}h3{font-size:1.5rem}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:rgba(250,246,238,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px}
+.logo{font-family:"Cormorant Garamond",serif;font-size:1.7rem;font-weight:700;color:var(--green-d);text-decoration:none;letter-spacing:.02em}
+nav{display:flex;align-items:center;gap:22px}
+nav a{text-decoration:none;font-size:.95rem;color:var(--muted)}nav a:hover{color:var(--green)}
+.lang{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 14px;font:600 .8rem Inter;cursor:pointer;color:var(--green-d)}
+.hero{background:linear-gradient(135deg,var(--green-d),var(--green) 60%,#4a7a5f);color:#fbf7ec;padding:96px 0 88px}
+.hero p{max-width:620px;font-size:1.15rem;color:#e7efe8;margin:0 0 28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;text-decoration:none;font-weight:600;border:2px solid var(--saffron);background:var(--saffron);color:#2a1d05}
+.btn.ghost{background:transparent;color:#fbf7ec;border-color:rgba(251,247,236,.5)}
+section{padding:80px 0}section.alt{background:var(--sand)}
+.lead{max-width:640px;color:var(--muted);font-size:1.08rem;margin-bottom:36px}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:28px}
+.card .ic{font-size:1.9rem;margin-bottom:10px}
+.card p{color:var(--muted);margin:0}
+ul.tick{list-style:none;padding:0;margin:14px 0 0}ul.tick li{padding-left:26px;position:relative;margin:6px 0;color:var(--ink)}
+ul.tick li:before{content:"✓";position:absolute;left:0;color:var(--saffron);font-weight:700}
+.note{font-size:.85rem;color:var(--muted);margin-top:22px}
+.contact{background:var(--green-d);color:#fbf7ec}
+.contact .lead{color:#d7e3da}
+.contact a.mail{color:var(--saffron);font-size:1.3rem;font-weight:600;text-decoration:none}
+.contact .row{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:baseline;margin:10px 0}.contact .row>span:first-child{min-width:70px;color:#d7e3da}.phones{display:flex;flex-wrap:wrap;gap:6px 24px}
+footer{padding:28px 0;font-size:.9rem;color:var(--muted);text-align:center;background:var(--bg)}
+@media(max-width:720px){nav a.hide{display:none}.hero{padding:64px 0}section{padding:56px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="#top">Trezzoveda</a>
+  <nav>
+    <a class="hide" href="#tours" data-i="n_tours">Tours</a>
+    <a class="hide" href="#yoga" data-i="n_yoga">Yoga</a>
+    <a href="#contact" data-i="n_contact">Contact</a>
+    <button class="lang" id="lang" aria-label="Language">RU</button>
+  </nav>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+  <h1 data-i="h1">Ayurveda, yoga and journeys across India and Russia</h1>
+  <p data-i="hero">Trezzoveda organises Ayurvedic tours to Kerala, travel tours across India and Russia, and yoga and meditation sessions.</p>
+  <div class="btns"><a class="btn" href="#contact" data-i="cta">Get in touch</a><a class="btn ghost" href="#tours" data-i="cta2">See our tours</a></div>
+</div></div>
+
+<section id="tours"><div class="wrap">
+  <h2 data-i="t_t">Our tours</h2>
+  <p class="lead" data-i="t_l">Programmes built around culture, nature and well-being, in India and in Russia.</p>
+  <div class="grid">
+    <div class="card"><div class="ic">🌿</div><h3 data-i="a_t">Ayurvedic tours to Kerala</h3><p data-i="a_p">Wellness stays in the state of Kerala, including Panchakarma, a traditional Ayurvedic cleansing programme.</p></div>
+    <div class="card"><div class="ic">🇮🇳</div><h3 data-i="i_t">Tours across India</h3><p data-i="i_p">Travel tours to the states of:</p>
+      <ul class="tick"><li data-i="i1">Goa</li><li data-i="i2">Kashmir</li><li data-i="i3">Himachal Pradesh</li></ul></div>
+    <div class="card"><div class="ic">🇷🇺</div><h3 data-i="r_t">Tours across Russia</h3><p data-i="r_p">Travel tours to:</p>
+      <ul class="tick"><li data-i="r1">Moscow</li><li data-i="r2">Saint Petersburg</li><li data-i="r3">Kamchatka</li><li data-i="r4">The Golden Ring</li><li data-i="r5">Lake Baikal</li></ul></div>
+  </div>
+  <p class="note" data-i="med">Information on this site is not medical advice. Ayurvedic programmes are not a substitute for treatment prescribed by a doctor.</p>
+</div></section>
+
+<section id="yoga" class="alt"><div class="wrap">
+  <h2 data-i="y_t">Yoga and meditation</h2>
+  <p class="lead" data-i="y_l">We organise yoga sessions and meditations, on their own or as part of a tour.</p>
+  <div class="grid">
+    <div class="card"><div class="ic">🧘</div><h3 data-i="y1_t">Yoga sessions</h3><p data-i="y1">Group sessions and retreats for different levels.</p></div>
+    <div class="card"><div class="ic">🕯️</div><h3 data-i="y2_t">Meditation</h3><p data-i="y2">Guided meditations for calm, focus and rest.</p></div>
+  </div>
+</div></section>
+
+<section id="wood"><div class="wrap">
+  <h2 data-i="w_t">Wood painting</h2>
+  <p class="lead" data-i="w_l">We also paint and finish wood: furniture, interior elements and craft pieces.</p>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+  <h2 data-i="c_t">Contact us</h2>
+  <p class="lead" data-i="c_l">Tell us where you want to go or what you are interested in, and we will suggest a programme.</p>
+  <p class="row"><span data-i="c_mail">Email</span><a class="mail" href="mailto:trezoveda@gmail.com">trezoveda@gmail.com</a></p>
+  <p class="row"><span data-i="c_phone">Phone</span>
+    <span class="phones"><a class="mail" href="tel:+919307654076">+91 93076 54076</a>
+    <a class="mail" href="tel:+919665385076">+91 96653 85076</a>
+    <a class="mail" href="tel:+79031503579">+7 903 150-35-79</a></span></p>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="y"></span> Trezzoveda</div></footer>
+
+<script>
+const T={
+en:{n_tours:"Tours",n_yoga:"Yoga",n_contact:"Contact",h1:"Ayurveda, yoga and journeys across India and Russia",hero:"Trezzoveda organises Ayurvedic tours to Kerala, travel tours across India and Russia, and yoga and meditation sessions.",cta:"Get in touch",cta2:"See our tours",
+t_t:"Our tours",t_l:"Programmes built around culture, nature and well-being, in India and in Russia.",a_t:"Ayurvedic tours to Kerala",a_p:"Wellness stays in the state of Kerala, including Panchakarma, a traditional Ayurvedic cleansing programme.",i_t:"Tours across India",i_p:"Travel tours to the states of:",i1:"Goa",i2:"Kashmir",i3:"Himachal Pradesh",r_t:"Tours across Russia",r_p:"Travel tours to:",r1:"Moscow",r2:"Saint Petersburg",r3:"Kamchatka",r4:"The Golden Ring",r5:"Lake Baikal",
+med:"Information on this site is not medical advice. Ayurvedic programmes are not a substitute for treatment prescribed by a doctor.",
+y_t:"Yoga and meditation",y_l:"We organise yoga sessions and meditations, on their own or as part of a tour.",y1_t:"Yoga sessions",y1:"Group sessions and retreats for different levels.",y2_t:"Meditation",y2:"Guided meditations for calm, focus and rest.",
+w_t:"Wood painting",w_l:"We also paint and finish wood: furniture, interior elements and craft pieces.",
+c_t:"Contact us",c_l:"Tell us where you want to go or what you are interested in, and we will suggest a programme.",c_mail:"Email",c_phone:"Phone"},
+ru:{n_tours:"Туры",n_yoga:"Йога",n_contact:"Контакты",h1:"Аюрведа, йога и путешествия по Индии и России",hero:"Trezzoveda организует аюрведические туры в Кералу, туристические туры по Индии и России, а также занятия йогой и медитации.",cta:"Связаться с нами",cta2:"Смотреть туры",
+t_t:"Наши туры",t_l:"Программы о культуре, природе и здоровье — в Индии и в России.",a_t:"Аюрведические туры в Кералу",a_p:"Оздоровительные программы в штате Керала, включая панчакарму — традиционную аюрведическую программу очищения.",i_t:"Туры по Индии",i_p:"Туристические туры в штаты:",i1:"Гоа",i2:"Кашмир",i3:"Химачал-Прадеш",r_t:"Туры по России",r_p:"Туристические туры:",r1:"Москва",r2:"Санкт-Петербург",r3:"Камчатка",r4:"Золотое кольцо",r5:"Байкал",
+med:"Информация на сайте не является медицинской рекомендацией. Аюрведические программы не заменяют лечение, назначенное врачом.",
+y_t:"Йога и медитации",y_l:"Организуем занятия йогой и медитации — отдельно или в составе тура.",y1_t:"Занятия йогой",y1:"Групповые занятия и ретриты для разных уровней.",y2_t:"Медитации",y2:"Направляемые медитации для спокойствия, концентрации и отдыха.",
+w_t:"Покраска дерева",w_l:"Мы также красим и отделываем дерево: мебель, элементы интерьера и изделия ремесленников.",
+c_t:"Свяжитесь с нами",c_l:"Расскажите, куда хотите поехать или что вас интересует, и мы предложим программу.",c_mail:"Почта",c_phone:"Телефон"}};
+let lang=(localStorage.getItem("lang")||(navigator.language||"en").slice(0,2))==="ru"?"ru":"en";
+function apply(){document.documentElement.lang=lang;document.querySelectorAll("[data-i]").forEach(e=>{const v=T[lang][e.dataset.i];if(v)e.textContent=v});
+document.getElementById("lang").textContent=lang==="ru"?"EN":"RU";document.title=lang==="ru"?"Trezzoveda — аюрведа, йога, туры по Индии и России":"Trezzoveda — Ayurveda, yoga, tours to India and Russia"}
+document.getElementById("lang").onclick=()=>{lang=lang==="ru"?"en":"ru";try{localStorage.setItem("lang",lang)}catch(e){}apply()};
+document.getElementById("y").textContent=new Date().getFullYear();apply();
+</script>
+</body>
+</html>
